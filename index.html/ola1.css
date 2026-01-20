@@ -2488,21 +2488,4 @@ body.confirm-order-open .back-to-top {
 }
 
 
-/* GLOBAL SCROLL LOCK */
-html.locked,
-body.locked {
-  overflow: hidden;
-  height: 100%;
-  touch-action: none;
-}
 
-/* ALL MODALS / OVERLAYS MUST BLOCK VIEWPORT */
-.modal,
-.overlay,
-.cart-panel,
-.popup,
-.nav-links.active {
-  position: fixed;
-  inset: 0;
-  overscroll-behavior: contain;
-}
