@@ -1160,4 +1160,5 @@ if (atmCard) {
     }
 
     lastScrollY = currentScrollY;
+
   });
