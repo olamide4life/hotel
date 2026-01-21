@@ -3,6 +3,11 @@
   padding: 0;
   box-sizing: border-box;
 }
+html,
+body {
+  overscroll-behavior: none;
+  touch-action: none;
+}
 
 /* ==BODY=== */
 body {
@@ -2486,6 +2491,7 @@ body.confirm-order-open .back-to-top {
     font-weight: 600;
   }
 }
+
 
 
 
